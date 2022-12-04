@@ -36,30 +36,30 @@ class Obstacle_Avoidance : public rclcpp::Node
       cmd_vel_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 1);
 
       stop_or_move_subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-      "stop_or_move", 10, std::bind(&Obstacle_Avoidance::stop_or_move_callback, this, _1));
+      "stop_or_move", 1, std::bind(&Obstacle_Avoidance::stop_or_move_callback, this, _1));
       
 
       fwd_distance_subscription_ = this->create_subscription<std_msgs::msg::Float32>(
-      "fwd_distance", 10, std::bind(&Obstacle_Avoidance::fwd_distance_callback, this, _1));
+      "fwd_distance", 1, std::bind(&Obstacle_Avoidance::fwd_distance_callback, this, _1));
       
 
       left_distance_subscription_ = this->create_subscription<std_msgs::msg::Float32>(
-      "left_distance", 10, std::bind(&Obstacle_Avoidance::left_distance_callback, this, _1));
+      "left_distance", 1, std::bind(&Obstacle_Avoidance::left_distance_callback, this, _1));
       
 
       right_distance_subscription_ = this->create_subscription<std_msgs::msg::Float32>(
-      "right_distance", 10, std::bind(&Obstacle_Avoidance::right_distance_callback, this, _1));
+      "right_distance", 1, std::bind(&Obstacle_Avoidance::right_distance_callback, this, _1));
       
 
       left_limit_state_subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-      "left_limit_state", 10, std::bind(&Obstacle_Avoidance::left_limit_state_callback, this, _1));
+      "left_limit_state", 1, std::bind(&Obstacle_Avoidance::left_limit_state_callback, this, _1));
       
 
       right_limit_state_subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-      "right_limit_state", 10, std::bind(&Obstacle_Avoidance::right_limit_state_callback, this, _1));
+      "right_limit_state", 1, std::bind(&Obstacle_Avoidance::right_limit_state_callback, this, _1));
           
 
-      timer_ = this->create_wall_timer(
+    timer_ = this->create_wall_timer(
       100ms, std::bind(&Obstacle_Avoidance::timer_callback, this));
     }
 
@@ -106,6 +106,16 @@ class Obstacle_Avoidance : public rclcpp::Node
       //RCLCPP_INFO(this->get_logger(), "Right Limit State: '%d'", msg.data);
       right_limit_state = msg.data;  
     }
+      rclcpp::TimerBase::SharedPtr timer_;
+      rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_publisher_;
+      rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr stop_or_move_subscription_;
+      rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr fwd_distance_subscription_;
+      rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr left_distance_subscription_;
+      rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr right_distance_subscription_;
+      rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr left_limit_state_subscription_;
+      rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr right_limit_state_subscription_;
+  
+  
 
     //rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 
@@ -287,15 +297,6 @@ class Obstacle_Avoidance : public rclcpp::Node
     //}
     //return msg;
   }
-  rclcpp::TimerBase::SharedPtr timer_;
-  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_publisher_;
-  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr stop_or_move_subscription_;
-  rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr fwd_distance_subscription_;
-  rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr left_distance_subscription_;
-  rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr right_distance_subscription_;
-  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr left_limit_state_subscription_;
-  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr right_limit_state_subscription_;
-  
   size_t count_;
 };
 

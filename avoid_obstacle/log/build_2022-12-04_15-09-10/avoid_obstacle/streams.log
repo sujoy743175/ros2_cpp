@@ -1,0 +1,26 @@
+[0.248s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target find_way[0m
+[0.739s] [ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[84.118s] [100%] [32m[1mLinking CXX executable find_way[0m
+[85.794s] [100%] Built target find_way
+[86.313s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[86.816s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --install /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle
+[86.839s] -- Install configuration: ""
+[86.848s] -- Installing: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/avoid_obstacle/find_way
+[86.860s] -- Set runtime path of "/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/avoid_obstacle/find_way" to ""
+[86.865s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/package_run_dependencies/avoid_obstacle
+[86.866s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/parent_prefix_path/avoid_obstacle
+[86.873s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.sh
+[86.873s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.dsv
+[86.874s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.sh
+[86.874s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.dsv
+[86.875s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.bash
+[86.875s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.sh
+[86.876s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.zsh
+[86.876s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.dsv
+[86.877s] -- Installing: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.dsv
+[86.880s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/packages/avoid_obstacle
+[86.881s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig.cmake
+[86.882s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig-version.cmake
+[86.882s] -- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.xml
+[86.913s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --install /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle

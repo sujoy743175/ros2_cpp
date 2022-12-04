@@ -1,0 +1,10 @@
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/uninstall.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/avoid_obstacle_uninstall.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/find_way.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/test.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/edit_cache.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/rebuild_cache.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/list_install_components.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/install.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/install/local.dir
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle/CMakeFiles/install/strip.dir

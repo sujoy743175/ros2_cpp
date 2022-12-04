@@ -1,0 +1,99 @@
+[2.946s] DEBUG:colcon:Command line arguments: ['/home/automation/.local/bin/colcon', 'build', '--packages-select', 'avoid_obstacle']
+[2.947s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['avoid_obstacle'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faa379dcdc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faa38361d50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faa38361d50>>)
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.131s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle'
+[3.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.187s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'avoid_obstacle'
+[3.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_args' from command line to 'None'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_target' from command line to 'None'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_clean_cache' from command line to 'False'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_clean_first' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'cmake_force_configure' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'ament_cmake_args' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'catkin_cmake_args' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'avoid_obstacle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.341s] DEBUG:colcon.colcon_core.verb:Building package 'avoid_obstacle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle', 'merge_install': False, 'path': '/home/automation/projec_ws/cppros2_projects/avoid_obstacle', 'symlink_install': False, 'test_result_base': None}
+[3.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle' with build type 'ament_cmake'
+[3.384s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle'
+[3.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[160.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[161.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --install /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle
+[161.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avoid_obstacle)
+[161.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --install /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle
+[161.631s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle' for CMake module files
+[161.642s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle' for CMake config files
+[161.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('avoid_obstacle', 'cmake_prefix_path')
+[161.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.ps1'
+[161.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.dsv'
+[161.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.sh'
+[161.771s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib'
+[161.772s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/bin'
+[161.773s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/pkgconfig/avoid_obstacle.pc'
+[161.821s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/python3.10/site-packages'
+[161.822s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/bin'
+[161.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.ps1'
+[161.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.dsv'
+[161.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.sh'
+[161.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.bash'
+[161.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.zsh'
+[161.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/colcon-core/packages/avoid_obstacle)
+[161.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avoid_obstacle)
+[162.002s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle' for CMake module files
+[162.004s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle' for CMake config files
+[162.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('avoid_obstacle', 'cmake_prefix_path')
+[162.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.ps1'
+[162.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.dsv'
+[162.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/hook/cmake_prefix_path.sh'
+[162.022s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib'
+[162.022s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/bin'
+[162.022s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/pkgconfig/avoid_obstacle.pc'
+[162.023s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/python3.10/site-packages'
+[162.023s] Level 1:colcon.colcon_core.environment:checking '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/bin'
+[162.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.ps1'
+[162.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.dsv'
+[162.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.sh'
+[162.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.bash'
+[162.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.zsh'
+[162.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/colcon-core/packages/avoid_obstacle)
+[162.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[162.078s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[162.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[162.084s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[162.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[162.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[162.238s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[163.037s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[163.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/local_setup.ps1'
+[163.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/_local_setup_util_ps1.py'
+[163.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/setup.ps1'
+[163.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/local_setup.sh'
+[163.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/_local_setup_util_sh.py'
+[163.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/setup.sh'
+[163.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/local_setup.bash'
+[163.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/setup.bash'
+[163.178s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/local_setup.zsh'
+[163.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/setup.zsh'

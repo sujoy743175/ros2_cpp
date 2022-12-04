@@ -1,0 +1,297 @@
+[0.000000] (-) TimerEvent: {}
+[0.000808] (avoid_obstacle) JobQueued: {'identifier': 'avoid_obstacle', 'dependencies': OrderedDict()}
+[0.000959] (avoid_obstacle) JobStarted: {'identifier': 'avoid_obstacle'}
+[0.098808] (-) TimerEvent: {}
+[0.204854] (-) TimerEvent: {}
+[0.280042] (avoid_obstacle) JobProgress: {'identifier': 'avoid_obstacle', 'progress': 'cmake'}
+[0.288699] (avoid_obstacle) JobProgress: {'identifier': 'avoid_obstacle', 'progress': 'build'}
+[0.298511] (avoid_obstacle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle', '--', '-j2', '-l2'], 'cwd': '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'automation'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/automation'), ('OLDPWD', '/home/automation/projec_ws/cppros2_projects'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1666'), ('SYSTEMD_EXEC_PID', '2035'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26301'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/automation/projec_ws/ros2Projects/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'automation'), ('JOURNAL_STREAM', '8:24257'), ('_', '/home/automation/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'automation'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/automation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/automation-VirtualBox:@/tmp/.ICE-unix/1819,unix/automation-VirtualBox:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', '114a15bc01234e3b981000d6a49a84ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5IKRW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:38c01b7c-72d2-40d8-a734-5b2dd2143f6c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/blink_publisher/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble')]), 'shell': False}
+[0.318149] (-) TimerEvent: {}
+[0.418972] (-) TimerEvent: {}
+[0.519688] (-) TimerEvent: {}
+[0.620621] (-) TimerEvent: {}
+[0.721316] (-) TimerEvent: {}
+[0.822053] (-) TimerEvent: {}
+[0.924897] (-) TimerEvent: {}
+[0.925393] (avoid_obstacle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target find_way\x1b[0m\n'}
+[1.025765] (-) TimerEvent: {}
+[1.101564] (avoid_obstacle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o\x1b[0m\n'}
+[1.130343] (-) TimerEvent: {}
+[1.234288] (-) TimerEvent: {}
+[1.334900] (-) TimerEvent: {}
+[1.435728] (-) TimerEvent: {}
+[1.536327] (-) TimerEvent: {}
+[1.637127] (-) TimerEvent: {}
+[1.738500] (-) TimerEvent: {}
+[1.839509] (-) TimerEvent: {}
+[1.940385] (-) TimerEvent: {}
+[2.041119] (-) TimerEvent: {}
+[2.141941] (-) TimerEvent: {}
+[2.242649] (-) TimerEvent: {}
+[2.343408] (-) TimerEvent: {}
+[2.443948] (-) TimerEvent: {}
+[2.544700] (-) TimerEvent: {}
+[2.645578] (-) TimerEvent: {}
+[2.746741] (-) TimerEvent: {}
+[2.848149] (-) TimerEvent: {}
+[2.950294] (-) TimerEvent: {}
+[3.050847] (-) TimerEvent: {}
+[3.151622] (-) TimerEvent: {}
+[3.252342] (-) TimerEvent: {}
+[3.352856] (-) TimerEvent: {}
+[3.453416] (-) TimerEvent: {}
+[3.554088] (-) TimerEvent: {}
+[3.658726] (-) TimerEvent: {}
+[3.769029] (-) TimerEvent: {}
+[3.869817] (-) TimerEvent: {}
+[3.974357] (-) TimerEvent: {}
+[4.075283] (-) TimerEvent: {}
+[4.176691] (-) TimerEvent: {}
+[4.277770] (-) TimerEvent: {}
+[4.378774] (-) TimerEvent: {}
+[4.479386] (-) TimerEvent: {}
+[4.581163] (-) TimerEvent: {}
+[4.682401] (-) TimerEvent: {}
+[4.783433] (-) TimerEvent: {}
+[4.884063] (-) TimerEvent: {}
+[4.984867] (-) TimerEvent: {}
+[5.085723] (-) TimerEvent: {}
+[5.186802] (-) TimerEvent: {}
+[5.288271] (-) TimerEvent: {}
+[5.389087] (-) TimerEvent: {}
+[5.489854] (-) TimerEvent: {}
+[5.590921] (-) TimerEvent: {}
+[5.694309] (-) TimerEvent: {}
+[5.794918] (-) TimerEvent: {}
+[5.895548] (-) TimerEvent: {}
+[5.996230] (-) TimerEvent: {}
+[6.097030] (-) TimerEvent: {}
+[6.197690] (-) TimerEvent: {}
+[6.298255] (-) TimerEvent: {}
+[6.398828] (-) TimerEvent: {}
+[6.499483] (-) TimerEvent: {}
+[6.600392] (-) TimerEvent: {}
+[6.701101] (-) TimerEvent: {}
+[6.801790] (-) TimerEvent: {}
+[6.904185] (-) TimerEvent: {}
+[7.004773] (-) TimerEvent: {}
+[7.105503] (-) TimerEvent: {}
+[7.206097] (-) TimerEvent: {}
+[7.306686] (-) TimerEvent: {}
+[7.407266] (-) TimerEvent: {}
+[7.508060] (-) TimerEvent: {}
+[7.608689] (-) TimerEvent: {}
+[7.709325] (-) TimerEvent: {}
+[7.809922] (-) TimerEvent: {}
+[7.911136] (-) TimerEvent: {}
+[8.011730] (-) TimerEvent: {}
+[8.112704] (-) TimerEvent: {}
+[8.213387] (-) TimerEvent: {}
+[8.313963] (-) TimerEvent: {}
+[8.422251] (-) TimerEvent: {}
+[8.527071] (-) TimerEvent: {}
+[8.628736] (-) TimerEvent: {}
+[8.729396] (-) TimerEvent: {}
+[8.830191] (-) TimerEvent: {}
+[8.930756] (-) TimerEvent: {}
+[9.031376] (-) TimerEvent: {}
+[9.133183] (-) TimerEvent: {}
+[9.233970] (-) TimerEvent: {}
+[9.335028] (-) TimerEvent: {}
+[9.435736] (-) TimerEvent: {}
+[9.536993] (-) TimerEvent: {}
+[9.637950] (-) TimerEvent: {}
+[9.739230] (-) TimerEvent: {}
+[9.839938] (-) TimerEvent: {}
+[9.941020] (-) TimerEvent: {}
+[10.041784] (-) TimerEvent: {}
+[10.142601] (-) TimerEvent: {}
+[10.243395] (-) TimerEvent: {}
+[10.345464] (-) TimerEvent: {}
+[10.452432] (-) TimerEvent: {}
+[10.553474] (-) TimerEvent: {}
+[10.654811] (-) TimerEvent: {}
+[10.755394] (-) TimerEvent: {}
+[10.855967] (-) TimerEvent: {}
+[10.956560] (-) TimerEvent: {}
+[11.057299] (-) TimerEvent: {}
+[11.158456] (-) TimerEvent: {}
+[11.259172] (-) TimerEvent: {}
+[11.360271] (-) TimerEvent: {}
+[11.460876] (-) TimerEvent: {}
+[11.561521] (-) TimerEvent: {}
+[11.662262] (-) TimerEvent: {}
+[11.763006] (-) TimerEvent: {}
+[11.864119] (-) TimerEvent: {}
+[11.965024] (-) TimerEvent: {}
+[12.066021] (-) TimerEvent: {}
+[12.166809] (-) TimerEvent: {}
+[12.267770] (-) TimerEvent: {}
+[12.368532] (-) TimerEvent: {}
+[12.478357] (-) TimerEvent: {}
+[12.579381] (-) TimerEvent: {}
+[12.684685] (-) TimerEvent: {}
+[12.785298] (-) TimerEvent: {}
+[12.886048] (-) TimerEvent: {}
+[12.987010] (-) TimerEvent: {}
+[13.088652] (-) TimerEvent: {}
+[13.189329] (-) TimerEvent: {}
+[13.292560] (-) TimerEvent: {}
+[13.394277] (-) TimerEvent: {}
+[13.495519] (-) TimerEvent: {}
+[13.598074] (-) TimerEvent: {}
+[13.699123] (-) TimerEvent: {}
+[13.801853] (-) TimerEvent: {}
+[13.902691] (-) TimerEvent: {}
+[14.004486] (-) TimerEvent: {}
+[14.105605] (-) TimerEvent: {}
+[14.210233] (-) TimerEvent: {}
+[14.310948] (-) TimerEvent: {}
+[14.411954] (-) TimerEvent: {}
+[14.512546] (-) TimerEvent: {}
+[14.613628] (-) TimerEvent: {}
+[14.714492] (-) TimerEvent: {}
+[14.815389] (-) TimerEvent: {}
+[14.916273] (-) TimerEvent: {}
+[15.017040] (-) TimerEvent: {}
+[15.117920] (-) TimerEvent: {}
+[15.218835] (-) TimerEvent: {}
+[15.319810] (-) TimerEvent: {}
+[15.420621] (-) TimerEvent: {}
+[15.521607] (-) TimerEvent: {}
+[15.622530] (-) TimerEvent: {}
+[15.723558] (-) TimerEvent: {}
+[15.825297] (-) TimerEvent: {}
+[15.926362] (-) TimerEvent: {}
+[16.027349] (-) TimerEvent: {}
+[16.128231] (-) TimerEvent: {}
+[16.229306] (-) TimerEvent: {}
+[16.331442] (-) TimerEvent: {}
+[16.432389] (-) TimerEvent: {}
+[16.533177] (-) TimerEvent: {}
+[16.634217] (-) TimerEvent: {}
+[16.735133] (-) TimerEvent: {}
+[16.835993] (-) TimerEvent: {}
+[16.937114] (-) TimerEvent: {}
+[17.038040] (-) TimerEvent: {}
+[17.138965] (-) TimerEvent: {}
+[17.240109] (-) TimerEvent: {}
+[17.341135] (-) TimerEvent: {}
+[17.442067] (-) TimerEvent: {}
+[17.543133] (-) TimerEvent: {}
+[17.644011] (-) TimerEvent: {}
+[17.744599] (-) TimerEvent: {}
+[17.845357] (-) TimerEvent: {}
+[17.946345] (-) TimerEvent: {}
+[18.047506] (-) TimerEvent: {}
+[18.148577] (-) TimerEvent: {}
+[18.249268] (-) TimerEvent: {}
+[18.349994] (-) TimerEvent: {}
+[18.451246] (-) TimerEvent: {}
+[18.552361] (-) TimerEvent: {}
+[18.653585] (-) TimerEvent: {}
+[18.754585] (-) TimerEvent: {}
+[18.855897] (-) TimerEvent: {}
+[18.957640] (-) TimerEvent: {}
+[19.058714] (-) TimerEvent: {}
+[19.160137] (-) TimerEvent: {}
+[19.260727] (-) TimerEvent: {}
+[19.361280] (-) TimerEvent: {}
+[19.463609] (-) TimerEvent: {}
+[19.564065] (-) TimerEvent: {}
+[19.664559] (-) TimerEvent: {}
+[19.765109] (-) TimerEvent: {}
+[19.865666] (-) TimerEvent: {}
+[19.966200] (-) TimerEvent: {}
+[20.066948] (-) TimerEvent: {}
+[20.168078] (-) TimerEvent: {}
+[20.269865] (-) TimerEvent: {}
+[20.374927] (-) TimerEvent: {}
+[20.477168] (-) TimerEvent: {}
+[20.577955] (-) TimerEvent: {}
+[20.638434] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[20.694240] (-) TimerEvent: {}
+[20.695086] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.695426] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[20.696290] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.696597] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.696824] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.698056] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.698389] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.698614] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.702533] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.702782] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.703000] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[20.703217] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist Obstacle_Avoidance::calculateVelMsg()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.705122] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:35:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.705993] (avoid_obstacle) StderrLine: {'line': b'   35 |     RCLCPP_INFO(this->get_logger(), "Distance is: \'%f\'", \x1b[01;31m\x1b[Kdistance\x1b[m\x1b[K);\n'}
+[20.706346] (avoid_obstacle) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.706601] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:66\x1b[m\x1b[K,\n'}
+[20.706847] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[20.707094] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[20.707368] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[20.707610] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2\x1b[m\x1b[K:\n'}
+[20.707853] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:138:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[20.709688] (avoid_obstacle) StderrLine: {'line': b'  138 |     \x1b[01;36m\x1b[Kdistance\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last)\n'}
+[20.709948] (avoid_obstacle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.710284] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:36:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.710533] (avoid_obstacle) StderrLine: {'line': b'   36 |     if (\x1b[01;31m\x1b[Kdistance\x1b[m\x1b[K < 1) {\n'}
+[20.710747] (avoid_obstacle) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.711003] (avoid_obstacle) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kstd::distance\x1b[m\x1b[K\n'}
+[20.711262] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:66\x1b[m\x1b[K,\n'}
+[20.711503] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[20.711727] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[20.711947] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[20.712283] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2\x1b[m\x1b[K:\n'}
+[20.712512] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:138:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[20.712753] (avoid_obstacle) StderrLine: {'line': b'  138 |     \x1b[01;36m\x1b[Kdistance\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last)\n'}
+[20.712976] (avoid_obstacle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.795390] (-) TimerEvent: {}
+[20.896516] (-) TimerEvent: {}
+[20.997281] (-) TimerEvent: {}
+[21.098453] (-) TimerEvent: {}
+[21.200535] (-) TimerEvent: {}
+[21.301388] (-) TimerEvent: {}
+[21.402021] (-) TimerEvent: {}
+[21.503123] (-) TimerEvent: {}
+[21.603608] (-) TimerEvent: {}
+[21.704310] (-) TimerEvent: {}
+[21.805566] (-) TimerEvent: {}
+[21.906223] (-) TimerEvent: {}
+[22.006756] (-) TimerEvent: {}
+[22.107301] (-) TimerEvent: {}
+[22.207875] (-) TimerEvent: {}
+[22.309114] (-) TimerEvent: {}
+[22.409806] (-) TimerEvent: {}
+[22.510605] (-) TimerEvent: {}
+[22.611308] (-) TimerEvent: {}
+[22.712632] (-) TimerEvent: {}
+[22.813193] (-) TimerEvent: {}
+[22.913914] (-) TimerEvent: {}
+[23.014584] (-) TimerEvent: {}
+[23.115122] (-) TimerEvent: {}
+[23.215771] (-) TimerEvent: {}
+[23.316576] (-) TimerEvent: {}
+[23.417331] (-) TimerEvent: {}
+[23.518474] (-) TimerEvent: {}
+[23.619413] (-) TimerEvent: {}
+[23.720760] (-) TimerEvent: {}
+[23.786940] (avoid_obstacle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1\n'}
+[23.815665] (avoid_obstacle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2\n'}
+[23.820973] (-) TimerEvent: {}
+[23.832600] (avoid_obstacle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.921306] (-) TimerEvent: {}
+[24.022268] (-) TimerEvent: {}
+[24.133982] (-) TimerEvent: {}
+[24.279091] (avoid_obstacle) CommandEnded: {'returncode': 2}
+[24.397236] (-) TimerEvent: {}
+[24.506501] (-) TimerEvent: {}
+[24.608193] (-) TimerEvent: {}
+[24.714470] (-) TimerEvent: {}
+[24.837621] (-) TimerEvent: {}
+[24.959040] (-) TimerEvent: {}
+[25.068329] (-) TimerEvent: {}
+[25.174704] (-) TimerEvent: {}
+[25.289869] (-) TimerEvent: {}
+[25.346642] (avoid_obstacle) JobEnded: {'identifier': 'avoid_obstacle', 'rc': 2}
+[25.386856] (-) EventReactorShutdown: {}

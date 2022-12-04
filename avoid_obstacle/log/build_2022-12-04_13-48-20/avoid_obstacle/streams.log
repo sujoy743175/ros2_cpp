@@ -1,0 +1,26 @@
+[0.168s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[0.668s] [35m[1mConsolidate compiler generated dependencies of target find_way[0m
+[0.773s] [ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[20.825s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In constructor ‘[01m[KObstacle_Avoidance::Obstacle_Avoidance()[m[K’:
+[20.847s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:40:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacle_Avoidance::create_subscription<std_msgs::msg::String>(const char [13], int)[m[K’
+[20.848s]    40 |       stop_or_move_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[20.848s]       |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[20.849s]    41 | [01;31m[K      "stop_or_move", 10)[m[K;
+[20.849s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                                           
+[20.852s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[20.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[20.855s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.856s]                  from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6[m[K:
+[20.858s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[20.858s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[20.859s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[20.859s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.861s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:40:84:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+[20.862s]    40 |       stop_or_move_subscription_ = [01;36m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[20.862s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[20.863s]    41 | [01;36m[K      "stop_or_move", 10)[m[K;
+[20.863s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~[m[K                                                           
+[24.200s] gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+[24.238s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+[24.255s] gmake: *** [Makefile:146: all] Error 2
+[24.690s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2

@@ -1,0 +1,11 @@
+[0.142s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[0.657s] [35m[1mConsolidate compiler generated dependencies of target find_way[0m
+[0.796s] [ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[2.802s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Int32.hpp: No such file or directory
+[2.803s]    11 | #include [01;31m[K"std_msgs/msg/Int32.hpp"[m[K
+[2.803s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.804s] compilation terminated.
+[2.812s] gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+[2.814s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+[2.815s] gmake: *** [Makefile:146: all] Error 2
+[2.832s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2

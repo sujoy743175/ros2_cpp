@@ -1,0 +1,688 @@
+[0.000000] (-) TimerEvent: {}
+[0.003834] (avoid_obstacle) JobQueued: {'identifier': 'avoid_obstacle', 'dependencies': OrderedDict()}
+[0.003947] (avoid_obstacle) JobStarted: {'identifier': 'avoid_obstacle'}
+[0.098825] (-) TimerEvent: {}
+[0.204539] (-) TimerEvent: {}
+[0.225313] (avoid_obstacle) JobProgress: {'identifier': 'avoid_obstacle', 'progress': 'cmake'}
+[0.243910] (avoid_obstacle) JobProgress: {'identifier': 'avoid_obstacle', 'progress': 'build'}
+[0.244071] (avoid_obstacle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle', '--', '-j2', '-l2'], 'cwd': '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'automation'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/automation'), ('OLDPWD', '/home/automation/projec_ws/cppros2_projects'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1666'), ('SYSTEMD_EXEC_PID', '2035'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26301'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install:/home/automation/projec_ws/ros2Projects/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'automation'), ('JOURNAL_STREAM', '8:24257'), ('_', '/home/automation/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'automation'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/automation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/automation-VirtualBox:@/tmp/.ICE-unix/1819,unix/automation-VirtualBox:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', '114a15bc01234e3b981000d6a49a84ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5IKRW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:38c01b7c-72d2-40d8-a734-5b2dd2143f6c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/blink_publisher/lib/python3.10/site-packages:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble')]), 'shell': False}
+[0.305775] (-) TimerEvent: {}
+[0.406398] (-) TimerEvent: {}
+[0.507867] (-) TimerEvent: {}
+[0.608995] (-) TimerEvent: {}
+[0.709986] (-) TimerEvent: {}
+[0.810755] (-) TimerEvent: {}
+[0.914194] (-) TimerEvent: {}
+[0.980435] (avoid_obstacle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target find_way\x1b[0m\n'}
+[1.014348] (-) TimerEvent: {}
+[1.115215] (-) TimerEvent: {}
+[1.153523] (avoid_obstacle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o\x1b[0m\n'}
+[1.215466] (-) TimerEvent: {}
+[1.316150] (-) TimerEvent: {}
+[1.416821] (-) TimerEvent: {}
+[1.517373] (-) TimerEvent: {}
+[1.618017] (-) TimerEvent: {}
+[1.718569] (-) TimerEvent: {}
+[1.819628] (-) TimerEvent: {}
+[1.921015] (-) TimerEvent: {}
+[2.021691] (-) TimerEvent: {}
+[2.122317] (-) TimerEvent: {}
+[2.223335] (-) TimerEvent: {}
+[2.324152] (-) TimerEvent: {}
+[2.425690] (-) TimerEvent: {}
+[2.526729] (-) TimerEvent: {}
+[2.627639] (-) TimerEvent: {}
+[2.728745] (-) TimerEvent: {}
+[2.829408] (-) TimerEvent: {}
+[2.930460] (-) TimerEvent: {}
+[3.031394] (-) TimerEvent: {}
+[3.132348] (-) TimerEvent: {}
+[3.232937] (-) TimerEvent: {}
+[3.333501] (-) TimerEvent: {}
+[3.434423] (-) TimerEvent: {}
+[3.534967] (-) TimerEvent: {}
+[3.635727] (-) TimerEvent: {}
+[3.736358] (-) TimerEvent: {}
+[3.837018] (-) TimerEvent: {}
+[3.937721] (-) TimerEvent: {}
+[4.038412] (-) TimerEvent: {}
+[4.139260] (-) TimerEvent: {}
+[4.240003] (-) TimerEvent: {}
+[4.340622] (-) TimerEvent: {}
+[4.441174] (-) TimerEvent: {}
+[4.541820] (-) TimerEvent: {}
+[4.642969] (-) TimerEvent: {}
+[4.744146] (-) TimerEvent: {}
+[4.844765] (-) TimerEvent: {}
+[4.945406] (-) TimerEvent: {}
+[5.046057] (-) TimerEvent: {}
+[5.146706] (-) TimerEvent: {}
+[5.247562] (-) TimerEvent: {}
+[5.349940] (-) TimerEvent: {}
+[5.450715] (-) TimerEvent: {}
+[5.551651] (-) TimerEvent: {}
+[5.652628] (-) TimerEvent: {}
+[5.753309] (-) TimerEvent: {}
+[5.854171] (-) TimerEvent: {}
+[5.959006] (-) TimerEvent: {}
+[6.059592] (-) TimerEvent: {}
+[6.160269] (-) TimerEvent: {}
+[6.260876] (-) TimerEvent: {}
+[6.362040] (-) TimerEvent: {}
+[6.462801] (-) TimerEvent: {}
+[6.563575] (-) TimerEvent: {}
+[6.666079] (-) TimerEvent: {}
+[6.770976] (-) TimerEvent: {}
+[6.872310] (-) TimerEvent: {}
+[6.975869] (-) TimerEvent: {}
+[7.076776] (-) TimerEvent: {}
+[7.178981] (-) TimerEvent: {}
+[7.282621] (-) TimerEvent: {}
+[7.390619] (-) TimerEvent: {}
+[7.494415] (-) TimerEvent: {}
+[7.595501] (-) TimerEvent: {}
+[7.697042] (-) TimerEvent: {}
+[7.797792] (-) TimerEvent: {}
+[7.903411] (-) TimerEvent: {}
+[8.007706] (-) TimerEvent: {}
+[8.108245] (-) TimerEvent: {}
+[8.208760] (-) TimerEvent: {}
+[8.309361] (-) TimerEvent: {}
+[8.409950] (-) TimerEvent: {}
+[8.510635] (-) TimerEvent: {}
+[8.611291] (-) TimerEvent: {}
+[8.712316] (-) TimerEvent: {}
+[8.813064] (-) TimerEvent: {}
+[8.913913] (-) TimerEvent: {}
+[9.014589] (-) TimerEvent: {}
+[9.115688] (-) TimerEvent: {}
+[9.216938] (-) TimerEvent: {}
+[9.319132] (-) TimerEvent: {}
+[9.419829] (-) TimerEvent: {}
+[9.521329] (-) TimerEvent: {}
+[9.626656] (-) TimerEvent: {}
+[9.728512] (-) TimerEvent: {}
+[9.830716] (-) TimerEvent: {}
+[9.937670] (-) TimerEvent: {}
+[10.038509] (-) TimerEvent: {}
+[10.139543] (-) TimerEvent: {}
+[10.240643] (-) TimerEvent: {}
+[10.341882] (-) TimerEvent: {}
+[10.445144] (-) TimerEvent: {}
+[10.546376] (-) TimerEvent: {}
+[10.651145] (-) TimerEvent: {}
+[10.752289] (-) TimerEvent: {}
+[10.853054] (-) TimerEvent: {}
+[10.953806] (-) TimerEvent: {}
+[11.054373] (-) TimerEvent: {}
+[11.154952] (-) TimerEvent: {}
+[11.255933] (-) TimerEvent: {}
+[11.360811] (-) TimerEvent: {}
+[11.462076] (-) TimerEvent: {}
+[11.563987] (-) TimerEvent: {}
+[11.664856] (-) TimerEvent: {}
+[11.766080] (-) TimerEvent: {}
+[11.867351] (-) TimerEvent: {}
+[11.968183] (-) TimerEvent: {}
+[12.068772] (-) TimerEvent: {}
+[12.169379] (-) TimerEvent: {}
+[12.276104] (-) TimerEvent: {}
+[12.377203] (-) TimerEvent: {}
+[12.483396] (-) TimerEvent: {}
+[12.585845] (-) TimerEvent: {}
+[12.688091] (-) TimerEvent: {}
+[12.789143] (-) TimerEvent: {}
+[12.896287] (-) TimerEvent: {}
+[13.000651] (-) TimerEvent: {}
+[13.102211] (-) TimerEvent: {}
+[13.202833] (-) TimerEvent: {}
+[13.315012] (-) TimerEvent: {}
+[13.415925] (-) TimerEvent: {}
+[13.516606] (-) TimerEvent: {}
+[13.618036] (-) TimerEvent: {}
+[13.718826] (-) TimerEvent: {}
+[13.821336] (-) TimerEvent: {}
+[13.922500] (-) TimerEvent: {}
+[14.023549] (-) TimerEvent: {}
+[14.124264] (-) TimerEvent: {}
+[14.224960] (-) TimerEvent: {}
+[14.325811] (-) TimerEvent: {}
+[14.426403] (-) TimerEvent: {}
+[14.526995] (-) TimerEvent: {}
+[14.627663] (-) TimerEvent: {}
+[14.728775] (-) TimerEvent: {}
+[14.829641] (-) TimerEvent: {}
+[14.930354] (-) TimerEvent: {}
+[15.031138] (-) TimerEvent: {}
+[15.133153] (-) TimerEvent: {}
+[15.233893] (-) TimerEvent: {}
+[15.334766] (-) TimerEvent: {}
+[15.442982] (-) TimerEvent: {}
+[15.547424] (-) TimerEvent: {}
+[15.648137] (-) TimerEvent: {}
+[15.749371] (-) TimerEvent: {}
+[15.850171] (-) TimerEvent: {}
+[15.950986] (-) TimerEvent: {}
+[16.052095] (-) TimerEvent: {}
+[16.152787] (-) TimerEvent: {}
+[16.253451] (-) TimerEvent: {}
+[16.354353] (-) TimerEvent: {}
+[16.455182] (-) TimerEvent: {}
+[16.556136] (-) TimerEvent: {}
+[16.656983] (-) TimerEvent: {}
+[16.758006] (-) TimerEvent: {}
+[16.858666] (-) TimerEvent: {}
+[16.959745] (-) TimerEvent: {}
+[17.063832] (-) TimerEvent: {}
+[17.165083] (-) TimerEvent: {}
+[17.266349] (-) TimerEvent: {}
+[17.367303] (-) TimerEvent: {}
+[17.468179] (-) TimerEvent: {}
+[17.569152] (-) TimerEvent: {}
+[17.669814] (-) TimerEvent: {}
+[17.770501] (-) TimerEvent: {}
+[17.871235] (-) TimerEvent: {}
+[17.972379] (-) TimerEvent: {}
+[18.073066] (-) TimerEvent: {}
+[18.173767] (-) TimerEvent: {}
+[18.274809] (-) TimerEvent: {}
+[18.375645] (-) TimerEvent: {}
+[18.476246] (-) TimerEvent: {}
+[18.577841] (-) TimerEvent: {}
+[18.678775] (-) TimerEvent: {}
+[18.779570] (-) TimerEvent: {}
+[18.880219] (-) TimerEvent: {}
+[18.981065] (-) TimerEvent: {}
+[19.081794] (-) TimerEvent: {}
+[19.182564] (-) TimerEvent: {}
+[19.284090] (-) TimerEvent: {}
+[19.385621] (-) TimerEvent: {}
+[19.486553] (-) TimerEvent: {}
+[19.617336] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KObstacle_Avoidance::Obstacle_Avoidance()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.785993] (-) TimerEvent: {}
+[19.786777] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:47:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloate32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KFloat32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.788056] (avoid_obstacle) StderrLine: {'line': b'   47 |       left_distance_subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KFloate32\x1b[m\x1b[K>(\n'}
+[19.790259] (avoid_obstacle) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[19.790521] (avoid_obstacle) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[KFloat32\x1b[m\x1b[K\n'}
+[19.790773] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:47:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KObstacle_Avoidance::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (Obstacle_Avoidance::*)(const std_msgs::msg::Float32_<std::allocator<void> >&) const, Obstacle_Avoidance*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.791502] (avoid_obstacle) StderrLine: {'line': b'   47 |       left_distance_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Floate32>(\x1b[m\x1b[K\n'}
+[19.791753] (avoid_obstacle) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[19.792026] (avoid_obstacle) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K      "left_distance", 10, std::bind(&Obstacle_Avoidance::left_distance_callback, this, _1))\x1b[m\x1b[K;\n'}
+[19.793240] (avoid_obstacle) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.793630] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[19.794803] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[19.795392] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[19.795816] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[19.796234] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[19.796630] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.797097] (avoid_obstacle) StderrLine: {'line': b'   92 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[19.797462] (avoid_obstacle) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.797790] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[19.798129] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:47:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[19.799396] (avoid_obstacle) StderrLine: {'line': b'   47 |       left_distance_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Floate32>(\x1b[m\x1b[K\n'}
+[19.799651] (avoid_obstacle) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[19.799946] (avoid_obstacle) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K      "left_distance", 10, std::bind(&Obstacle_Avoidance::left_distance_callback, this, _1))\x1b[m\x1b[K;\n'}
+[19.800177] (avoid_obstacle) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.800459] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[19.800688] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[19.800958] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[19.801183] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[19.801424] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[19.801647] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[19.801932] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[19.802179] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[19.802423] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[19.803520] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[19.803867] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[19.804178] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[19.804422] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Obstacle_Avoidance::fwd_distance_callback(const Float32&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.805252] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:88:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.805506] (avoid_obstacle) StderrLine: {'line': b'   88 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"I heard: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg.data\x1b[m\x1b[K);\n'}
+[19.805807] (avoid_obstacle) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[19.806033] (avoid_obstacle) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.806264] (avoid_obstacle) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[19.806487] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:88:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[19.806761] (avoid_obstacle) StderrLine: {'line': b'   88 |       RCLCPP_INFO(this->get_logger(), "I heard: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", msg.data);\n'}
+[19.807052] (avoid_obstacle) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[19.807294] (avoid_obstacle) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[19.807516] (avoid_obstacle) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[19.807775] (avoid_obstacle) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[19.807997] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[19.808229] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[19.808451] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[19.808722] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[19.808945] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[19.809699] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[19.809962] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[19.810196] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[19.810418] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[19.810694] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[19.810977] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[19.811223] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[19.811446] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Obstacle_Avoidance::left_distance_callback(const Float32&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.811711] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:93:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.811978] (avoid_obstacle) StderrLine: {'line': b'   93 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"I heard: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg.data\x1b[m\x1b[K);\n'}
+[19.812202] (avoid_obstacle) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[19.812449] (avoid_obstacle) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.812786] (avoid_obstacle) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[19.813053] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:93:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[19.813277] (avoid_obstacle) StderrLine: {'line': b'   93 |       RCLCPP_INFO(this->get_logger(), "I heard: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", msg.data);\n'}
+[19.813540] (avoid_obstacle) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[19.813771] (avoid_obstacle) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[19.814045] (avoid_obstacle) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[19.814301] (avoid_obstacle) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[19.886219] (-) TimerEvent: {}
+[19.986789] (-) TimerEvent: {}
+[20.087427] (-) TimerEvent: {}
+[20.188476] (-) TimerEvent: {}
+[20.289079] (-) TimerEvent: {}
+[20.389676] (-) TimerEvent: {}
+[20.490351] (-) TimerEvent: {}
+[20.591216] (-) TimerEvent: {}
+[20.691988] (-) TimerEvent: {}
+[20.792741] (-) TimerEvent: {}
+[20.893263] (-) TimerEvent: {}
+[20.994440] (-) TimerEvent: {}
+[21.095001] (-) TimerEvent: {}
+[21.195857] (-) TimerEvent: {}
+[21.296586] (-) TimerEvent: {}
+[21.397350] (-) TimerEvent: {}
+[21.498488] (-) TimerEvent: {}
+[21.599202] (-) TimerEvent: {}
+[21.699971] (-) TimerEvent: {}
+[21.800556] (-) TimerEvent: {}
+[21.821533] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[21.822051] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:26\x1b[m\x1b[K,\n'}
+[21.822357] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.822616] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.822961] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.823251] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.823474] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.824435] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.824940] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.825538] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.826039] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[21.826513] (avoid_obstacle) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.827191] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.839143] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.839726] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.847509] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.848615] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:87:\x1b[m\x1b[K   required from here\n'}
+[21.849429] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::AnySubscriptionCallbackHelper<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void>, false>::variant_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<std_msgs::msg::Float32_<std::allocator<void> >, std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std_msgs::msg::Int32_<std::allocator<void> >&)>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[21.850406] (avoid_obstacle) StderrLine: {'line': b'  394 |       \x1b[01;31m\x1b[Kcallback_variant_ = static_cast<typename scbth::callback_type>(callback)\x1b[m\x1b[K;\n'}
+[21.851673] (avoid_obstacle) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.852279] (avoid_obstacle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[21.852811] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.864568] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.865191] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.865672] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.866450] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.867027] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.867499] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.868025] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.868494] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.874293] (avoid_obstacle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6\x1b[m\x1b[K:\n'}
+[21.877568] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1477:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.887686] (avoid_obstacle) StderrLine: {'line': b' 1477 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Tp&& __rhs)\n'}
+[21.888073] (avoid_obstacle) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[21.888475] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1477:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[21.888841] (avoid_obstacle) StderrLine: {'line': b'/usr/include/c++/11/variant: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = std::function<void(const std_msgs::msg::Int32_<std::allocator<void> >&)>&&; <template-parameter-2-2> = void; _Types = {std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.903935] (-) TimerEvent: {}
+[21.905915] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1473:14:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&> std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::operator=<_Tp>(_Tp&&) [with _Tp = std::function<void(const std_msgs::msg::Int32_<std::allocator<void> >&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.912054] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.912391] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.912775] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.913096] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.913426] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.913784] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:87:\x1b[m\x1b[K   required from here\n'}
+[21.914081] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1391:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.914439] (avoid_obstacle) StderrLine: {'line': b' 1391 |         using \x1b[01;31m\x1b[K__accepted_type\x1b[m\x1b[K = __to_type<__accepted_index<_Tp>>;\n'}
+[21.914785] (avoid_obstacle) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.915184] (avoid_obstacle) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.915689] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.916188] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::Float32_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.916868] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.917412] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.917870] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:87:\x1b[m\x1b[K   required from here\n'}
+[21.918163] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1414:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.943315] (avoid_obstacle) StderrLine: {'line': b' 1414 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const variant&) = default;\n'}
+[21.958995] (avoid_obstacle) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[21.959358] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1414:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<std_msgs::msg::Float32_<std::allocator<void> >, std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std_msgs::msg::Int32_<std::allocator<void> >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.959724] (avoid_obstacle) StderrLine: {'line': b' 1414 |       variant& operator=(\x1b[01;36m\x1b[Kconst variant&\x1b[m\x1b[K) = default;\n'}
+[21.959951] (avoid_obstacle) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.960170] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1415:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.960482] (avoid_obstacle) StderrLine: {'line': b' 1415 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(variant&&) = default;\n'}
+[21.960700] (avoid_obstacle) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[21.960913] (avoid_obstacle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1415:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<std_msgs::msg::Float32_<std::allocator<void> >, std::_Bind<void (Obstacle_Avoidance::*(Obstacle_Avoidance*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&) const>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std_msgs::msg::Int32_<std::allocator<void> >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&)>, std::function<void(const std_msgs::msg::Float32_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const std_msgs::msg::Float32_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.961187] (avoid_obstacle) StderrLine: {'line': b' 1415 |       variant& operator=(\x1b[01;36m\x1b[Kvariant&&\x1b[m\x1b[K) = default;\n'}
+[21.961400] (avoid_obstacle) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.005887] (-) TimerEvent: {}
+[22.106392] (-) TimerEvent: {}
+[22.207163] (-) TimerEvent: {}
+[22.307807] (-) TimerEvent: {}
+[22.408965] (-) TimerEvent: {}
+[22.510126] (-) TimerEvent: {}
+[22.610792] (-) TimerEvent: {}
+[22.711939] (-) TimerEvent: {}
+[22.812579] (-) TimerEvent: {}
+[22.913243] (-) TimerEvent: {}
+[23.015755] (-) TimerEvent: {}
+[23.116593] (-) TimerEvent: {}
+[23.217288] (-) TimerEvent: {}
+[23.317929] (-) TimerEvent: {}
+[23.419057] (-) TimerEvent: {}
+[23.520737] (-) TimerEvent: {}
+[23.621394] (-) TimerEvent: {}
+[23.723095] (-) TimerEvent: {}
+[23.824437] (-) TimerEvent: {}
+[23.925295] (-) TimerEvent: {}
+[24.026530] (-) TimerEvent: {}
+[24.127093] (-) TimerEvent: {}
+[24.228466] (-) TimerEvent: {}
+[24.329053] (-) TimerEvent: {}
+[24.429655] (-) TimerEvent: {}
+[24.530241] (-) TimerEvent: {}
+[24.630750] (-) TimerEvent: {}
+[24.731301] (-) TimerEvent: {}
+[24.832311] (-) TimerEvent: {}
+[24.933109] (-) TimerEvent: {}
+[25.033797] (-) TimerEvent: {}
+[25.134553] (-) TimerEvent: {}
+[25.235398] (-) TimerEvent: {}
+[25.336721] (-) TimerEvent: {}
+[25.437613] (-) TimerEvent: {}
+[25.538229] (-) TimerEvent: {}
+[25.639245] (-) TimerEvent: {}
+[25.739824] (-) TimerEvent: {}
+[25.840694] (-) TimerEvent: {}
+[25.941558] (-) TimerEvent: {}
+[26.042305] (-) TimerEvent: {}
+[26.145188] (-) TimerEvent: {}
+[26.245940] (-) TimerEvent: {}
+[26.346589] (-) TimerEvent: {}
+[26.447756] (-) TimerEvent: {}
+[26.548512] (-) TimerEvent: {}
+[26.649081] (-) TimerEvent: {}
+[26.750375] (-) TimerEvent: {}
+[26.858955] (-) TimerEvent: {}
+[26.959660] (-) TimerEvent: {}
+[27.060388] (-) TimerEvent: {}
+[27.161004] (-) TimerEvent: {}
+[27.261781] (-) TimerEvent: {}
+[27.362321] (-) TimerEvent: {}
+[27.463895] (-) TimerEvent: {}
+[27.564476] (-) TimerEvent: {}
+[27.665153] (-) TimerEvent: {}
+[27.765833] (-) TimerEvent: {}
+[27.866787] (-) TimerEvent: {}
+[27.970972] (-) TimerEvent: {}
+[28.072284] (-) TimerEvent: {}
+[28.174709] (-) TimerEvent: {}
+[28.275487] (-) TimerEvent: {}
+[28.376553] (-) TimerEvent: {}
+[28.479315] (-) TimerEvent: {}
+[28.580788] (-) TimerEvent: {}
+[28.688288] (-) TimerEvent: {}
+[28.792121] (-) TimerEvent: {}
+[28.893384] (-) TimerEvent: {}
+[28.994803] (-) TimerEvent: {}
+[29.095507] (-) TimerEvent: {}
+[29.196198] (-) TimerEvent: {}
+[29.296997] (-) TimerEvent: {}
+[29.397617] (-) TimerEvent: {}
+[29.498234] (-) TimerEvent: {}
+[29.599892] (-) TimerEvent: {}
+[29.702593] (-) TimerEvent: {}
+[29.804063] (-) TimerEvent: {}
+[29.906169] (-) TimerEvent: {}
+[30.008421] (-) TimerEvent: {}
+[30.115444] (-) TimerEvent: {}
+[30.248692] (-) TimerEvent: {}
+[30.357760] (-) TimerEvent: {}
+[30.458404] (-) TimerEvent: {}
+[30.561797] (-) TimerEvent: {}
+[30.662613] (-) TimerEvent: {}
+[30.767072] (-) TimerEvent: {}
+[30.868453] (-) TimerEvent: {}
+[30.969347] (-) TimerEvent: {}
+[31.070335] (-) TimerEvent: {}
+[31.171039] (-) TimerEvent: {}
+[31.271703] (-) TimerEvent: {}
+[31.372811] (-) TimerEvent: {}
+[31.476628] (-) TimerEvent: {}
+[31.578507] (-) TimerEvent: {}
+[31.679580] (-) TimerEvent: {}
+[31.780370] (-) TimerEvent: {}
+[31.881155] (-) TimerEvent: {}
+[31.982505] (-) TimerEvent: {}
+[32.083616] (-) TimerEvent: {}
+[32.184217] (-) TimerEvent: {}
+[32.285031] (-) TimerEvent: {}
+[32.385757] (-) TimerEvent: {}
+[32.486441] (-) TimerEvent: {}
+[32.588482] (-) TimerEvent: {}
+[32.689568] (-) TimerEvent: {}
+[32.791409] (-) TimerEvent: {}
+[32.892060] (-) TimerEvent: {}
+[32.992672] (-) TimerEvent: {}
+[33.093754] (-) TimerEvent: {}
+[33.195209] (-) TimerEvent: {}
+[33.296503] (-) TimerEvent: {}
+[33.397472] (-) TimerEvent: {}
+[33.498443] (-) TimerEvent: {}
+[33.599296] (-) TimerEvent: {}
+[33.700467] (-) TimerEvent: {}
+[33.801470] (-) TimerEvent: {}
+[33.902099] (-) TimerEvent: {}
+[34.003042] (-) TimerEvent: {}
+[34.103885] (-) TimerEvent: {}
+[34.204480] (-) TimerEvent: {}
+[34.305342] (-) TimerEvent: {}
+[34.405991] (-) TimerEvent: {}
+[34.507485] (-) TimerEvent: {}
+[34.610329] (-) TimerEvent: {}
+[34.711671] (-) TimerEvent: {}
+[34.812330] (-) TimerEvent: {}
+[34.913163] (-) TimerEvent: {}
+[35.014121] (-) TimerEvent: {}
+[35.114870] (-) TimerEvent: {}
+[35.215584] (-) TimerEvent: {}
+[35.316207] (-) TimerEvent: {}
+[35.417436] (-) TimerEvent: {}
+[35.519034] (-) TimerEvent: {}
+[35.619925] (-) TimerEvent: {}
+[35.721115] (-) TimerEvent: {}
+[35.821879] (-) TimerEvent: {}
+[35.922834] (-) TimerEvent: {}
+[36.023846] (-) TimerEvent: {}
+[36.124583] (-) TimerEvent: {}
+[36.225780] (-) TimerEvent: {}
+[36.326572] (-) TimerEvent: {}
+[36.427341] (-) TimerEvent: {}
+[36.527942] (-) TimerEvent: {}
+[36.628469] (-) TimerEvent: {}
+[36.729695] (-) TimerEvent: {}
+[36.830318] (-) TimerEvent: {}
+[36.931154] (-) TimerEvent: {}
+[37.031862] (-) TimerEvent: {}
+[37.133297] (-) TimerEvent: {}
+[37.234912] (-) TimerEvent: {}
+[37.335545] (-) TimerEvent: {}
+[37.436338] (-) TimerEvent: {}
+[37.537296] (-) TimerEvent: {}
+[37.638112] (-) TimerEvent: {}
+[37.738985] (-) TimerEvent: {}
+[37.839910] (-) TimerEvent: {}
+[37.941182] (-) TimerEvent: {}
+[38.042057] (-) TimerEvent: {}
+[38.142693] (-) TimerEvent: {}
+[38.243964] (-) TimerEvent: {}
+[38.344577] (-) TimerEvent: {}
+[38.445718] (-) TimerEvent: {}
+[38.546316] (-) TimerEvent: {}
+[38.647513] (-) TimerEvent: {}
+[38.748068] (-) TimerEvent: {}
+[38.848960] (-) TimerEvent: {}
+[38.949638] (-) TimerEvent: {}
+[39.050329] (-) TimerEvent: {}
+[39.150953] (-) TimerEvent: {}
+[39.251668] (-) TimerEvent: {}
+[39.352699] (-) TimerEvent: {}
+[39.453306] (-) TimerEvent: {}
+[39.555092] (-) TimerEvent: {}
+[39.655746] (-) TimerEvent: {}
+[39.756553] (-) TimerEvent: {}
+[39.859093] (-) TimerEvent: {}
+[39.960288] (-) TimerEvent: {}
+[40.061272] (-) TimerEvent: {}
+[40.163039] (-) TimerEvent: {}
+[40.264898] (-) TimerEvent: {}
+[40.382092] (-) TimerEvent: {}
+[40.483814] (-) TimerEvent: {}
+[40.589037] (-) TimerEvent: {}
+[40.693167] (-) TimerEvent: {}
+[40.793852] (-) TimerEvent: {}
+[40.894663] (-) TimerEvent: {}
+[40.995371] (-) TimerEvent: {}
+[41.096016] (-) TimerEvent: {}
+[41.196671] (-) TimerEvent: {}
+[41.297339] (-) TimerEvent: {}
+[41.399053] (-) TimerEvent: {}
+[41.500370] (-) TimerEvent: {}
+[41.601159] (-) TimerEvent: {}
+[41.702346] (-) TimerEvent: {}
+[41.803584] (-) TimerEvent: {}
+[41.905593] (-) TimerEvent: {}
+[42.006594] (-) TimerEvent: {}
+[42.109096] (-) TimerEvent: {}
+[42.210415] (-) TimerEvent: {}
+[42.312290] (-) TimerEvent: {}
+[42.413062] (-) TimerEvent: {}
+[42.515193] (-) TimerEvent: {}
+[42.616388] (-) TimerEvent: {}
+[42.717351] (-) TimerEvent: {}
+[42.818073] (-) TimerEvent: {}
+[42.919016] (-) TimerEvent: {}
+[43.019775] (-) TimerEvent: {}
+[43.120464] (-) TimerEvent: {}
+[43.221268] (-) TimerEvent: {}
+[43.322203] (-) TimerEvent: {}
+[43.423092] (-) TimerEvent: {}
+[43.524122] (-) TimerEvent: {}
+[43.624753] (-) TimerEvent: {}
+[43.725347] (-) TimerEvent: {}
+[43.825954] (-) TimerEvent: {}
+[43.934617] (-) TimerEvent: {}
+[44.036402] (-) TimerEvent: {}
+[44.137646] (-) TimerEvent: {}
+[44.239841] (-) TimerEvent: {}
+[44.345970] (-) TimerEvent: {}
+[44.447491] (-) TimerEvent: {}
+[44.549682] (-) TimerEvent: {}
+[44.650798] (-) TimerEvent: {}
+[44.752489] (-) TimerEvent: {}
+[44.853848] (-) TimerEvent: {}
+[44.954467] (-) TimerEvent: {}
+[45.054948] (-) TimerEvent: {}
+[45.156094] (-) TimerEvent: {}
+[45.257578] (-) TimerEvent: {}
+[45.358734] (-) TimerEvent: {}
+[45.459809] (-) TimerEvent: {}
+[45.560691] (-) TimerEvent: {}
+[45.663584] (-) TimerEvent: {}
+[45.764655] (-) TimerEvent: {}
+[45.866680] (-) TimerEvent: {}
+[45.967322] (-) TimerEvent: {}
+[46.068673] (-) TimerEvent: {}
+[46.170052] (-) TimerEvent: {}
+[46.270985] (-) TimerEvent: {}
+[46.372300] (-) TimerEvent: {}
+[46.474592] (-) TimerEvent: {}
+[46.576705] (-) TimerEvent: {}
+[46.677557] (-) TimerEvent: {}
+[46.780066] (-) TimerEvent: {}
+[46.881302] (-) TimerEvent: {}
+[46.982044] (-) TimerEvent: {}
+[47.082706] (-) TimerEvent: {}
+[47.184600] (-) TimerEvent: {}
+[47.285528] (-) TimerEvent: {}
+[47.387535] (-) TimerEvent: {}
+[47.489581] (-) TimerEvent: {}
+[47.591008] (-) TimerEvent: {}
+[47.693788] (-) TimerEvent: {}
+[47.795500] (-) TimerEvent: {}
+[47.897540] (-) TimerEvent: {}
+[47.999634] (-) TimerEvent: {}
+[48.123162] (-) TimerEvent: {}
+[48.224494] (-) TimerEvent: {}
+[48.327280] (-) TimerEvent: {}
+[48.439851] (-) TimerEvent: {}
+[48.545400] (-) TimerEvent: {}
+[48.652294] (-) TimerEvent: {}
+[48.756913] (-) TimerEvent: {}
+[48.866085] (-) TimerEvent: {}
+[48.971283] (-) TimerEvent: {}
+[49.072586] (-) TimerEvent: {}
+[49.176688] (-) TimerEvent: {}
+[49.277770] (-) TimerEvent: {}
+[49.378728] (-) TimerEvent: {}
+[49.480037] (-) TimerEvent: {}
+[49.581164] (-) TimerEvent: {}
+[49.682503] (-) TimerEvent: {}
+[49.800536] (-) TimerEvent: {}
+[49.915117] (-) TimerEvent: {}
+[50.025706] (-) TimerEvent: {}
+[50.128461] (-) TimerEvent: {}
+[50.231868] (-) TimerEvent: {}
+[50.333638] (-) TimerEvent: {}
+[50.434872] (-) TimerEvent: {}
+[50.535798] (-) TimerEvent: {}
+[51.335198] (-) TimerEvent: {}
+[51.442962] (-) TimerEvent: {}
+[51.553429] (-) TimerEvent: {}
+[51.660040] (-) TimerEvent: {}
+[51.793549] (-) TimerEvent: {}
+[51.895566] (-) TimerEvent: {}
+[52.011955] (-) TimerEvent: {}
+[52.131102] (-) TimerEvent: {}
+[52.232485] (-) TimerEvent: {}
+[52.333472] (-) TimerEvent: {}
+[52.434340] (-) TimerEvent: {}
+[52.535660] (-) TimerEvent: {}
+[52.636692] (-) TimerEvent: {}
+[52.740048] (-) TimerEvent: {}
+[52.842680] (-) TimerEvent: {}
+[52.943841] (-) TimerEvent: {}
+[53.044786] (-) TimerEvent: {}
+[53.145482] (-) TimerEvent: {}
+[53.246583] (-) TimerEvent: {}
+[53.348109] (-) TimerEvent: {}
+[53.449322] (-) TimerEvent: {}
+[53.550190] (-) TimerEvent: {}
+[53.651401] (-) TimerEvent: {}
+[53.752175] (-) TimerEvent: {}
+[53.853077] (-) TimerEvent: {}
+[53.953767] (-) TimerEvent: {}
+[54.054564] (-) TimerEvent: {}
+[54.156105] (-) TimerEvent: {}
+[54.276200] (avoid_obstacle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1\n'}
+[54.343091] (-) TimerEvent: {}
+[54.344772] (avoid_obstacle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2\n'}
+[54.345863] (avoid_obstacle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[54.443930] (-) TimerEvent: {}
+[54.550017] (-) TimerEvent: {}
+[54.663343] (-) TimerEvent: {}
+[54.735748] (avoid_obstacle) CommandEnded: {'returncode': 2}
+[54.864747] (-) TimerEvent: {}
+[54.971122] (-) TimerEvent: {}
+[55.071792] (-) TimerEvent: {}
+[55.178176] (-) TimerEvent: {}
+[55.294857] (-) TimerEvent: {}
+[55.411429] (-) TimerEvent: {}
+[55.528774] (-) TimerEvent: {}
+[55.629915] (-) TimerEvent: {}
+[55.731311] (-) TimerEvent: {}
+[55.842958] (-) TimerEvent: {}
+[55.944215] (avoid_obstacle) JobEnded: {'identifier': 'avoid_obstacle', 'rc': 2}
+[56.235050] (-) TimerEvent: {}
+[56.235423] (-) EventReactorShutdown: {}

@@ -1,0 +1,138 @@
+[0.108s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake /home/automation/projec_ws/cppros2_projects/avoid_obstacle -DCMAKE_INSTALL_PREFIX=/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle
+[0.878s] -- The C compiler identification is GNU 11.3.0
+[1.347s] -- The CXX compiler identification is GNU 11.3.0
+[1.450s] -- Detecting C compiler ABI info
+[1.922s] -- Detecting C compiler ABI info - done
+[1.959s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.961s] -- Detecting C compile features
+[1.964s] -- Detecting C compile features - done
+[1.976s] -- Detecting CXX compiler ABI info
+[2.242s] -- Detecting CXX compiler ABI info - done
+[2.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.268s] -- Detecting CXX compile features
+[2.269s] -- Detecting CXX compile features - done
+[2.310s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.197s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.692s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[4.034s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.064s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.105s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.589s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.617s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.099s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.176s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.337s] -- Looking for pthread.h
+[5.638s] -- Looking for pthread.h - found
+[5.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.923s] -- Found Threads: TRUE  
+[6.658s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.860s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.349s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.993s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.994s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/automation/projec_ws/cppros2_projects/avoid_obstacle/include>
+[7.994s] -- Configured cppcheck exclude dirs and/or files: 
+[8.009s] -- Added test 'lint_cmake' to check CMake code style
+[8.044s] -- Added test 'uncrustify' to check C / C++ code style
+[8.045s] -- Configured uncrustify additional arguments: 
+[8.052s] -- Added test 'xmllint' to check XML markup files
+[8.067s] -- Configuring done
+[8.134s] -- Generating done
+[8.145s] -- Build files have been written to: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle
+[8.214s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '0': CMAKE_PREFIX_PATH=/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake /home/automation/projec_ws/cppros2_projects/avoid_obstacle -DCMAKE_INSTALL_PREFIX=/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle
+[8.232s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[8.373s] [ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[18.759s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+[18.766s]    44 |   [01;31m[Krclcpp[m[K::Publisher::SharedPtr publisher_;
+[18.766s]       |   [01;31m[K^~~~~~[m[K
+[18.768s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.769s]    44 |   rclcpp::Publisher::[01;31m[KSharedPtr[m[K publisher_;
+[18.769s]       |                      [01;31m[K^~~~~~~~~[m[K
+[18.769s]       |                               [32m[K;[m[K
+[18.769s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[18.770s]    44 |   rclcpp::Publisher::SharedPtr [01;31m[Kpublisher_[m[K;
+[18.770s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[18.770s]       |                                [32m[Krmw_publisher_t[m[K
+[18.770s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Subscription[m[K’ without an argument list
+[18.770s]    45 |   [01;31m[Krclcpp[m[K::Subscription::SharedPtr subscription_;
+[18.771s]       |   [01;31m[K^~~~~~[m[K
+[18.771s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.771s]    45 |   rclcpp::Subscription::[01;31m[KSharedPtr[m[K subscription_;
+[18.771s]       |                         [01;31m[K^~~~~~~~~[m[K
+[18.772s]       |                                  [32m[K;[m[K
+[18.772s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[18.772s]    45 |   rclcpp::Subscription::SharedPtr [01;31m[Ksubscription_[m[K;
+[18.772s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[18.772s]       |                                   [32m[Krmw_subscription_t[m[K
+[18.773s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In constructor ‘[01m[KObstacleAvoidance::ObstacleAvoidance()[m[K’:
+[18.773s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[18.774s]    12 |     [01;31m[Ksubscription_[m[K = this->create_subscription(
+[18.774s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[18.775s]       |     [32m[Krmw_subscription_t[m[K
+[18.806s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoidance::create_subscription(const char [11], rclcpp::QoS&, std::_Bind_helper<false, void (ObstacleAvoidance::*)(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >), ObstacleAvoidance*, const std::_Placeholder<1>&>::type)[m[K’
+[18.807s]    12 |     subscription_ = [01;31m[Kthis->create_subscription([m[K
+[18.807s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[18.807s]    13 | [01;31m[K        "laser_scan", default_qos,[m[K
+[18.807s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+[18.807s]    14 | [01;31m[K        std::bind(&ObstacleAvoidance::topic_callback, this, _1))[m[K;
+[18.808s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.834s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[18.834s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[18.835s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.835s]                  from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2[m[K:
+[18.835s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[18.835s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[18.835s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.842s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.843s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:46:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessageT[m[K’
+[18.843s]    12 |     subscription_ = [01;36m[Kthis->create_subscription([m[K
+[18.849s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[18.850s]    13 | [01;36m[K        "laser_scan", default_qos,[m[K
+[18.850s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+[18.850s]    14 | [01;36m[K        std::bind(&ObstacleAvoidance::topic_callback, this, _1))[m[K;
+[18.851s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.871s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[18.872s]    15 |     [01;31m[Kpublisher_[m[K =
+[18.872s]       |     [01;31m[K^~~~~~~~~~[m[K
+[18.873s]       |     [32m[Krmw_publisher_t[m[K
+[18.873s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:16:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoidance::create_publisher(const char [8], int)[m[K’
+[18.874s]    16 |         [01;31m[Kthis->create_publisher("cmd_vel", 10)[m[K;
+[18.883s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[18.884s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[18.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[18.885s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.885s]                  from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2[m[K:
+[18.886s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[18.886s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[18.886s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.887s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:16:31:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessageT[m[K’
+[18.887s]    16 |         [01;36m[Kthis->create_publisher("cmd_vel", 10)[m[K;
+[18.888s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[18.895s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidance::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.895s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[18.895s]    27 |     [01;31m[Kpublisher_[m[K->publish(message);
+[18.896s]       |     [01;31m[K^~~~~~~~~~[m[K
+[18.896s]       |     [32m[Krmw_publisher_t[m[K
+[18.899s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[18.901s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared()[m[K’
+[18.902s]    50 |   rclcpp::spin([01;31m[Kstd::make_shared()[m[K);
+[18.902s]       |                [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[18.929s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[18.930s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10[m[K,
+[18.930s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[18.930s]                  from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:1[m[K:
+[18.930s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[18.931s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[18.931s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[18.931s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.931s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:32:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[18.932s]    50 |   rclcpp::spin([01;36m[Kstd::make_shared()[m[K);
+[18.932s]       |                [01;36m[K~~~~~~~~~~~~~~~~^~[m[K
+[20.452s] gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+[20.493s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+[20.517s] gmake: *** [Makefile:146: all] Error 2
+[20.785s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '2': CMAKE_PREFIX_PATH=/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2

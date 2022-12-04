@@ -1,0 +1,23 @@
+[0.144s] Invoking command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2
+[0.869s] [35m[1mConsolidate compiler generated dependencies of target find_way[0m
+[1.099s] [ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[21.324s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[21.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.353s]                  from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:6[m[K:
+[21.354s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In member function ‘[01m[Kvoid Obstacle_Avoidance::stop_or_move_callback(const Int32&) const[m[K’:
+[21.356s] [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:64:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_int[m[K’ in ‘[01m[Kmsg.std_msgs::msg::Int32_<std::allocator<void> >::data[m[K’, which is of non-class type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst int[m[K’}
+[21.357s]    64 |       RCLCPP_INFO(this->get_logger(), "I heard: '%d'", msg.data.[01;31m[Kc_int[m[K());
+[21.357s]       |                                                                 [01;31m[K^~~~~[m[K
+[32.718s] gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+[32.743s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+[32.744s] gmake: *** [Makefile:146: all] Error 2
+[33.142s] Invoked command in '/home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/automation/projec_ws/ros2Projects/install/ros2_teleop_keyboard:/home/automation/projec_ws/ros2Projects/install/obstacle_avoidance:/home/automation/projec_ws/ros2Projects/install/blink_publisher:/home/automation/projec_ws/ros2Projects/install/WirelessRangeEstimator:/opt/ros/humble /usr/bin/cmake --build /home/automation/projec_ws/cppros2_projects/avoid_obstacle/build/avoid_obstacle -- -j2 -l2

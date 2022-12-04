@@ -1,0 +1,11 @@
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In member function ‘[01m[Kvoid Obstacle_Avoidance::timer_callback()[m[K’:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:27:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacle_Avoidance::calculateVelMsg()[m[K’
+   27 |       auto message = [01;31m[Kthis->calculateVelMsg()[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:32:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Twist Obstacle_Avoidance::calculateVelMsg(float)[m[K’
+   32 |   geometry_msgs::msg::Twist [01;36m[KcalculateVelMsg[m[K(float distance) {
+      |                             [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:32:29:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,90 @@
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+   44 |   [01;31m[Krclcpp[m[K::Publisher::SharedPtr publisher_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   rclcpp::Publisher::[01;31m[KSharedPtr[m[K publisher_;
+      |                      [01;31m[K^~~~~~~~~[m[K
+      |                               [32m[K;[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:44:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   44 |   rclcpp::Publisher::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                [01;31m[K^~~~~~~~~~[m[K
+      |                                [32m[Krmw_publisher_t[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Subscription[m[K’ without an argument list
+   45 |   [01;31m[Krclcpp[m[K::Subscription::SharedPtr subscription_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   45 |   rclcpp::Subscription::[01;31m[KSharedPtr[m[K subscription_;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[K;[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   45 |   rclcpp::Subscription::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                   [32m[Krmw_subscription_t[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In constructor ‘[01m[KObstacleAvoidance::ObstacleAvoidance()[m[K’:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   12 |     [01;31m[Ksubscription_[m[K = this->create_subscription(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoidance::create_subscription(const char [11], rclcpp::QoS&, std::_Bind_helper<false, void (ObstacleAvoidance::*)(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >), ObstacleAvoidance*, const std::_Placeholder<1>&>::type)[m[K’
+   12 |     subscription_ = [01;31m[Kthis->create_subscription([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K        "laser_scan", default_qos,[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+   14 | [01;31m[K        std::bind(&ObstacleAvoidance::topic_callback, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:12:46:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessageT[m[K’
+   12 |     subscription_ = [01;36m[Kthis->create_subscription([m[K
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;36m[K        "laser_scan", default_qos,[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+   14 | [01;36m[K        std::bind(&ObstacleAvoidance::topic_callback, this, _1))[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   15 |     [01;31m[Kpublisher_[m[K =
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:16:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoidance::create_publisher(const char [8], int)[m[K’
+   16 |         [01;31m[Kthis->create_publisher("cmd_vel", 10)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:16:31:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessageT[m[K’
+   16 |         [01;36m[Kthis->create_publisher("cmd_vel", 10)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidance::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   27 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared()[m[K’
+   50 |   rclcpp::spin([01;31m[Kstd::make_shared()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/automation/projec_ws/cppros2_projects/avoid_obstacle/src/find_way.cpp:50:32:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+   50 |   rclcpp::spin([01;36m[Kstd::make_shared()[m[K);
+      |                [01;36m[K~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/find_way.dir/build.make:76: CMakeFiles/find_way.dir/src/find_way.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_way.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

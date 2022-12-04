@@ -1,0 +1,16 @@
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/avoid_obstacle/find_way
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/package_run_dependencies/avoid_obstacle
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/parent_prefix_path/avoid_obstacle
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.sh
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.dsv
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.sh
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.dsv
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.bash
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.sh
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.zsh
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.dsv
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.dsv
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/packages/avoid_obstacle
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig.cmake
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig-version.cmake
+/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.xml

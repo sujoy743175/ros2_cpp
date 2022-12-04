@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target find_way[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/find_way.dir/src/find_way.cpp.o[0m
+[100%] [32m[1mLinking CXX executable find_way[0m
+[100%] Built target find_way
+-- Install configuration: ""
+-- Installing: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/avoid_obstacle/find_way
+-- Set runtime path of "/home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/lib/avoid_obstacle/find_way" to ""
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/package_run_dependencies/avoid_obstacle
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/parent_prefix_path/avoid_obstacle
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.sh
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.sh
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/environment/path.dsv
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.bash
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.sh
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.zsh
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/local_setup.dsv
+-- Installing: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.dsv
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/ament_index/resource_index/packages/avoid_obstacle
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig.cmake
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/cmake/avoid_obstacleConfig-version.cmake
+-- Up-to-date: /home/automation/projec_ws/cppros2_projects/avoid_obstacle/install/avoid_obstacle/share/avoid_obstacle/package.xml
